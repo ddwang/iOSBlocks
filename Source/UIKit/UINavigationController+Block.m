@@ -42,15 +42,22 @@ static UIViewController *_viewController;
 
 - (void)popToRootViewControllerAnimated:(BOOL)animated onCompletion:(VoidBlock)completion
 {
-    NSUInteger index = [self.viewControllers indexOfObject:self.visibleViewController];
-    
-    if (index > 0) {
+	NSUInteger index = [self.viewControllers indexOfObject:self.visibleViewController];
+	UIViewController* targetViewController = [self.viewControllers objectAtIndex:0];
+	[self setCompletionBlock:completion
+			  viewController:targetViewController
+					delegate:weakObject(self)];
 
-        UIViewController *viewController = [self.viewControllers objectAtIndex:0];
-        
-        [self setCompletionBlock:completion viewController:viewController delegate:weakObject(self)];
+	if (index > 0)
+	{
         [self popToRootViewControllerAnimated:animated];
-    }
+	}
+	else
+	{
+		[self navigationController:self
+			 didShowViewController:targetViewController
+						  animated:animated];
+	}
 }
 
 - (void)setCompletionBlock:(VoidBlock)completion viewController:(UIViewController *)viewController delegate:(id)delegate

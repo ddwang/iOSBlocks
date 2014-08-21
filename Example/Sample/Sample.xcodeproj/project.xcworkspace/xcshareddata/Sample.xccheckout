@@ -10,29 +10,29 @@
 	<string>Sample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F5A538C0-1F45-4D34-9612-47F0F8C91F06</key>
+		<key>A441944EB18040DCE0F54ECBCDAA254972AFB705</key>
 		<string>https://github.com/dzenbot/iOSBlocks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Example/Sample/Sample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F5A538C0-1F45-4D34-9612-47F0F8C91F06</key>
+		<key>A441944EB18040DCE0F54ECBCDAA254972AFB705</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dzenbot/iOSBlocks.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F5A538C0-1F45-4D34-9612-47F0F8C91F06</string>
+	<string>A441944EB18040DCE0F54ECBCDAA254972AFB705</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F5A538C0-1F45-4D34-9612-47F0F8C91F06</string>
+			<string>A441944EB18040DCE0F54ECBCDAA254972AFB705</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOSBlocks</string>
 		</dict>
